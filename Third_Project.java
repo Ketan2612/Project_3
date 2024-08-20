@@ -1,4 +1,4 @@
-public class EvenOdd {
+public class Third_Project {
 
  public static void main(String[] args) {
 
