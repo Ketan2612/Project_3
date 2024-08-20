@@ -1,17 +1,14 @@
 public class Third_Project {
 
- public static void main(String[] args) {
+  public static void main(String args[]) {    
+        int n1 = 0, n2 = 1, n3, i, count = 10;    
+        System.out.print(n1 + " " + n2); // Printing 0 and 1    
 
- int num = 5;
-
- if(num % 2 == 0)
-
- System.out.println(num + ” is even.”);
-
- else
-
- System.out.println(num + ” is odd.”);
-
- }
-
+        for (i = 2; i < count; ++i) { // Loop starts from 2 because 0 and 1 are already printed    
+            n3 = n1 + n2;    
+            System.out.print(" " + n3);    
+            n1 = n2;    
+            n2 = n3;    
+        }    
+    }  
 }
